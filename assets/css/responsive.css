@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+  .auth {
+    margin-top: 20px;
+  }
+  .banner-text,
+  .banner-image {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-text h1 {
+    font-size: 48px;
+  }
+  .client-logos {
+    justify-content: center;
+  }
+}

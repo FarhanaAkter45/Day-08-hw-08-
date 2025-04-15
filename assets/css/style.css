@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  width: 1152px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* NAVIGATION */
+#nav {
+  padding: 30px 0;
+  background-color: #f5f7fa;
+}
+.menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.menu li a {
+  color: #18191f;
+  font-size: 16px;
+}
+.menu li a:hover {
+  color: #4caf4f;
+}
+.auth a {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.auth .login {
+  color: #4caf4f;
+}
+.auth .signup {
+  background: #4caf4f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/* BANNER */
+#banner {
+  background: #f5f7fa;
+  padding: 96px 0;
+}
+.banner-text {
+  width: 55%;
+}
+.banner-text h1 {
+  font-size: 64px;
+  color: #4d4d4d;
+}
+.banner-text h1 span {
+  color: #4caf4f;
+}
+.banner-text p {
+  margin: 20px 0 30px;
+  color: #717171;
+}
+.banner-text .btn {
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.banner-image {
+  width: 40%;
+  text-align: right;
+}
+.banner-image img {
+  max-width: 100%;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #4caf4f;
+  opacity: 0.5;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+.dot.active {
+  opacity: 1;
+}
+
+/* CLIENTS */
+#clients {
+  padding: 60px 0;
+  text-align: center;
+}
+#clients h2 {
+  font-size: 36px;
+  color: #4d4d4d;
+}
+#clients p {
+  margin: 10px 0 40px;
+  color: #717171;
+}
+.client-logos img {
+  width: 100px;
+  margin: 0 15px 20px;
+}
